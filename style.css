@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: roboto;
+}
+
+.intro {
+  background: #1f2937;
+  border-bottom: 1px solid #ddd;
+  color: #f9faf8;
+  padding: 0 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  list-style-type: none;
+}
