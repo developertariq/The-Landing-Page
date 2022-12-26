@@ -109,3 +109,18 @@ ul {
 .text {
   text-align: center;
 }
+
+.speech{
+  padding: 24px 256px 64px;
+  background-color: #e5e7eb;
+}
+
+.speech p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  text-align: justify;                      
+  text-justify: inter-word;
+}
+
