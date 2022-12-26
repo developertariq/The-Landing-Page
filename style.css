@@ -5,21 +5,21 @@
 body {
   margin: 0;
   font-family: roboto;
+  font-size: 18px;
 }
 
 .intro {
   background: #1f2937;
   border-bottom: 1px solid #ddd;
   color: #f9faf8;
-  padding: 0 100px;
+  padding: 0 196px;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px;
-
+  padding-top: 24px;
 }
 
 .logo {
@@ -31,7 +31,6 @@ body {
 a {
   text-decoration: none;
   color: #e5e7eb;
-  font-size: 18px;
 }
 
 ul {
@@ -40,4 +39,35 @@ ul {
   padding: 0;
   gap: 16px;
   list-style-type: none;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 64px 0;
+  gap: 18px;
+}
+
+.image {
+  background-color: #e5e7eb;
+}
+
+.flex {
+  flex: 1;
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: 48px;
+}
+
+.heading p {
+  color: #e5e7eb;
+}
+
+.heading a {
+  padding: 8px 24px;
+  background-color: #3882f6;
+  border-radius: 4px;
 }
