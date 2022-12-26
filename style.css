@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: roboto;
   font-size: 18px;
+  background-color: #fff;
 }
 
 .intro {
@@ -60,6 +61,7 @@ ul {
 .heading h1 {
   margin: 0;
   font-size: 48px;
+  font-weight: bolder;
 }
 
 .heading p {
@@ -70,4 +72,40 @@ ul {
   padding: 8px 24px;
   background-color: #3882f6;
   border-radius: 4px;
+}
+
+.info {
+  padding: 24px 196px 64px;
+  margin-bottom: 64px;
+}
+
+.info h2 {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 36px;
+  font-weight: bolder;
+  padding: 36px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.card {
+  flex: 1;
+  max-width: 200px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  padding: 8px;
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+}
+
+.text {
+  text-align: center;
 }
